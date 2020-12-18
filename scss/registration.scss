@@ -1,0 +1,49 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+.main {
+		&__inner {
+            background-color: #fff;
+		}
+}
+.registration {
+    font-size: 2em;
+    padding: 20px;
+		&__fieldset {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 700px;
+            border: 2px solid $main;
+            border-radius: 5px;
+		}
+		&__name {
+            color: $sub-color;
+            width: 300px;
+		}
+		&__tel {
+            width: 300px;
+		}
+		&__password {
+            width: 300px;
+		}
+		&__male {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            height: 200px;
+            justify-content: space-between;
+        }
+        &__submit {
+            height: 50px;
+            width: 100px;
+            background-color: $main;
+            border: 2px solid $hover-color;
+            border-radius: 10px;
+        }
+}
+.log-in {
+    height: 300px;
+}
